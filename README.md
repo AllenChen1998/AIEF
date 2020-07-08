@@ -8,12 +8,14 @@ This repository contains the code for [Generate High-Resolution Adversarial Samp
 We propose Attack by Identifying Effective Features (AIEF), which learns different weights for features to attack.
 
 
-## Requisite
+## Environment
 
 This code is implemented in Tensorflow, and we have tested the code under the following environment settings:
 
 - python = 3.7.5
 - tensorflow-gpu = 1.13.2
+- models/facenet/model-20180402-114759.ckpt-275.data-00000-of-00001 [download](https://github.com/davidsandberg/facenet)
+- models/stylegan/karras2019stylegan-celebahq-1024x1024.pkl [download](https://github.com/NVlabs/stylegan)
 
 ## Run the code
 
@@ -27,7 +29,7 @@ python main.py
 
 ## Results
 
-<img src="./img/1.png" width=400px ><img src="./result/adv1.png" width=400px align="center">
+<img src="./img/1.png" width=400px><img src="./result/adv1.png" width=400px>
 
 <img src="./img/2.png" width=400px><img src="./result/adv2.png" width=400px>
 
